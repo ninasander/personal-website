@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 112,5%;
+    padding: 20px;
+    margin: 0;
+}

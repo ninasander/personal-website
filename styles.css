@@ -4,6 +4,138 @@
 
 body {
     font-size: 112,5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #033C51;
+    background-color: #C7E6F2;
     padding: 20px;
     margin: 0;
+    display: grid;
+    grid-template-rows: 48px auto 48px;
+    height: 100vh;
+}
+
+
+a {
+    color: #033C51;
+    display: block;
+}
+
+h1, h2 {
+    color: #690038;
+    display: inline;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /** flex-direction: column; **/
+   /** margin: 30px; **/
+    height: 48px;
+    
+}
+
+#nav{
+    list-style-type: square;
+    text-decoration:none;
+    color: #690038;
+}
+
+#navcontact{
+    text-decoration: none;
+    display: inline;
+}
+
+#navbio{
+    text-decoration: none;
+    display: inline;
+}
+
+main{
+    overflow: scroll;
+    height: 100vh;
+    background-color: #9DCADB;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.img1{
+    max-width: 70%;
+}
+
+#portrait{
+    text-align: center;
+    font-size: 70%;
+}
+
+/**#interests-skills{
+    list-style-type: square;
+}
+**/
+
+#interests{
+    list-style-type: square;
+}
+
+#skills{
+    list-style-type: square;
+}
+
+#contact{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: #690038;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+#github-link{
+    display: inline-block;
+    padding-left: 55px;
+}
+
+#codepen-link{
+    display: inline-block;
+}
+
+#linkedin-link{
+    display: inline-block;
+}
+
+.imgicon{
+    max-width: 30px;
+    
+}
+
+#bio{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+table{
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td{
+    text-align: left;
+    border: 1px solid #690038;
+    padding: 5px;
+}
+
+.cv-year{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-size: 80%;
 }

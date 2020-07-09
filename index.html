@@ -6,19 +6,26 @@
         <title>Nina's Website</title>
         <link rel="stylesheet" href="/styles.css">
     </head>
+
     <body>
         <header>
             <h1>Nina Sander</h1>
             <nav>
-                <a href="#contact">Contact</a>
-                <a href="#bio">Biography</a>
+                <ul id="nav">
+                    <li>
+                        <a id="navcontact" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a id="navbio" href="#bio">Biography</a>
+                    </li>    
+                </ul>
             </nav>
         </header>
 
     <main>
         <section id="portrait">
             <figure>
-                <img src="Sander_Nina.jpg" alt="">
+                <img class="img1" src="Sander_Nina.jpg" alt="">
 
                 <figcaption>
                     Mein letztes Bewerbungsfoto</figcaption>
@@ -27,14 +34,14 @@
 
         <section id="interests-skills">
         <h2>Interests</h2>
-            <ul>
+            <ul id="interests">
                 <li>Web Development :)</li>
                 <li>Videospiele, Brettspiele, TTRPGs, etc.</li>
                 <li>Backen</li>
                 <li>Zeichnen (Analog und Digital)</li>
             </ul>
         <h2>Skills</h2>
-            <ul>
+            <ul id="skills">
                 <li>Bioinformatische/statistische/mathematische Programme</li>
                 <li>Photoshop</li>
                 <li>MS Office</li>
@@ -45,14 +52,14 @@
         <h2>Contact</h2>
             <p>Number: 0175 63471885</p>
             <p>Email: beispiel@email.com</p>
-            <a href="https://github.com/ninasander" target="_blank" rel="noreferrer noopener">
-                <img src="github-icon.png" alt="Github Account">
+            <a id="github-link" href="https://github.com/ninasander" target="_blank" rel="noreferrer noopener">
+                <img class="imgicon" src="github-icon.png" alt="Github Account">
             </a>
-            <a href="https://codepen.io/ninasander" target="_blank" rel="noreferrer noopener">
-                <img src="codepen-icon.png" alt="Codepen Account">
+            <a id="codepen-link" href="https://codepen.io/ninasander" target="_blank" rel="noreferrer noopener">
+                <img class="imgicon" src="codepen-icon.png" alt="Codepen Account">
             </a>
-            <a href="https://www.linkedin.com/in/nina-s-9284721b2/" target="_blank" rel="noreferrer noopener">
-                <img src="linkedin-icon.png" alt="Linkedin Account">
+            <a id="linkedin-link" href="https://www.linkedin.com/in/nina-s-9284721b2/" target="_blank" rel="noreferrer noopener">
+                <img class="imgicon" src="linkedin-icon.png" alt="Linkedin Account">
             </a>
         </section>
 
@@ -64,15 +71,15 @@
             <table>
                 <tbody>
                     <tr>
-                        <td>2013</td>
+                        <td class="cv-year">2013</td>
                         <td>Abitur am Grabbe-Gymnasium Detmold</td>
                     </tr>
                     <tr>
-                        <td>März 2020</td>
+                        <td class="cv-year">März 2020</td>
                         <td>Bachelor of Science in Biologie an der Universität Bielefeld</td>
                     </tr>
                     <tr>
-                        <td>Juli 2020</td>
+                        <td class="cv-year">Juli 2020</td>
                         <td>Development Trainee bei Billbee GmbH</td>
                     </tr>
                 </tbody>
@@ -82,7 +89,7 @@
     </main>
 
         <footer>
-            <p>Copyright 2020 Nina Sander</p>
+            <p>Copyright © 2020 Nina Sander</p>
         </footer>
     </body>
 </html>

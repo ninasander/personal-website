@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nina's Website</title>
         <link rel="stylesheet" href="/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital@0;1&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
@@ -13,26 +14,28 @@
             <nav>
                 <ul id="nav">
                     <li>
-                        <a id="navcontact" href="#contact">Contact</a>
-                    </li>
-                    <li>
                         <a id="navbio" href="#bio">Biography</a>
                     </li>    
+                    <li>
+                        <a id="navcontact" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </nav>
         </header>
 
+    <section class="content">    
     <main>
-        <section id="portrait">
+        <section class="boxes intro">
             <figure>
-                <img class="img1" src="Sander_Nina.jpg" alt="">
+                <img class="portrait" src="IMG_20200220_141814.jpg" alt="">
 
-                <figcaption>
-                    Mein letztes Bewerbungsfoto</figcaption>
+                <figcaption class="caption">
+                    Das bin ich :)</figcaption>
             </figure>
+            <p class="intro-text">Willkommen auf meiner ersten eigenen Website! <br> Hier kannst du meine ersten Erfolge im Web Development betrachten und mich gleichzeitig etwas besser kennen lernen.</p>
         </section>
 
-        <section id="interests-skills">
+        <section class="boxes interests-skills">
         <h2>Interests</h2>
             <ul id="interests">
                 <li>Web Development :)</li>
@@ -48,25 +51,11 @@
             </ul>
         </section>
 
-        <section id="contact">
-        <h2>Contact</h2>
-            <p>Number: 0175 63471885</p>
-            <p>Email: beispiel@email.com</p>
-            <a id="github-link" href="https://github.com/ninasander" target="_blank" rel="noreferrer noopener">
-                <img class="imgicon" src="github-icon.png" alt="Github Account">
-            </a>
-            <a id="codepen-link" href="https://codepen.io/ninasander" target="_blank" rel="noreferrer noopener">
-                <img class="imgicon" src="codepen-icon.png" alt="Codepen Account">
-            </a>
-            <a id="linkedin-link" href="https://www.linkedin.com/in/nina-s-9284721b2/" target="_blank" rel="noreferrer noopener">
-                <img class="imgicon" src="linkedin-icon.png" alt="Linkedin Account">
-            </a>
-        </section>
-
-        <section id="bio">
+        
+        <section class="boxes" id="bio">
             <h2>About Me</h2>
             <p>Hi, mein Name ist Nina, ich bin 25 Jahre alt und komme aus Detmold in Ostwestfalen-Lippe. Ich habe zuletzt meinen Bachelor in Biologie an der Uni Bielefeld abgeschlossen. Im Anschluss wollte ich allerdings lieber in den informatischen Bereich wechseln und habe seit kurzem eine Stelle als Web Development Trainee bei der Billbee GmbH in Detmold.</p>
-
+            
             <h2>CV</h2>
             <table>
                 <tbody>
@@ -85,11 +74,28 @@
                 </tbody>
             </table>
         </section>
+        
+        <section id="contact">
+        <h2>Contact</h2>
+            <p>Number: 0175 63471885</p>
+            <p>Email: beispiel@email.com</p>
+            <a id="github-link" href="https://github.com/ninasander" target="_blank" rel="noreferrer noopener">
+                <img class="imgicon" src="github-icon.png" alt="Github Account">
+            </a>
+            <a id="codepen-link" href="https://codepen.io/ninasander" target="_blank" rel="noreferrer noopener">
+                <img class="imgicon" src="codepen-icon.png" alt="Codepen Account">
+            </a>
+            <a id="linkedin-link" href="https://www.linkedin.com/in/nina-s-9284721b2/" target="_blank" rel="noreferrer noopener">
+                <img class="imgicon" src="linkedin-icon.png" alt="Linkedin Account">
+            </a>
+        </section>
 
     </main>
 
         <footer>
             <p>Copyright © 2020 Nina Sander</p>
         </footer>
+        
+    </section>    
     </body>
 </html>

@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scrollbar-width: none;
 }
 
 body {
@@ -33,9 +34,8 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
-   /** flex-direction: column; **/
-   /** margin: 30px; **/
     height: 48px;
+    background-color: #C7E6F2;
     
 }
 
@@ -58,8 +58,8 @@ header
 
 .content{
     overflow: scroll;
-    margin: 0;
-    width: 100%;
+    min-height: 100vh;
+    scrollbar-width: none;
 }
 
 /** main{

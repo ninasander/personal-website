@@ -25,6 +25,11 @@ h1, h2 {
     display: inline;
 }
 
+h1{
+    text-shadow: #033C51;
+    
+}
+
 header
 {
     display: flex;
@@ -35,6 +40,7 @@ header
     height: 48px;
     
 }
+
 
 #nav{
     list-style-type: square;
@@ -53,12 +59,10 @@ header
 }
 
 main{
-    overflow: scroll;
-    height: 100vh;
-    background-color: #9DCADB;
+   /** background-color: #9DCADB;
     border-radius: 10px;
     padding: 10px;
-    
+    **/
 }
 
 .img1{
@@ -68,12 +72,16 @@ main{
 #portrait{
     text-align: center;
     font-size: 70%;
+    background-color: #9DCADB;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 12px;
 }
 
 /**#interests-skills{
-    list-style-type: square;
-}
-**/
+   
+}**/
+
 
 #interests{
     list-style-type: square;

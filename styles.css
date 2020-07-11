@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
-    scrollbar-width: none;
 }
 
+@media(min-width: 375px){
 body {
     font-size: 112,5%;
     font-family: 'Raleway', sans-serif;
@@ -27,6 +27,10 @@ h1, h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     text-shadow: 1px 1px #033C51;
+}
+
+h2{
+    margin: 0;
 }
 
 header
@@ -56,11 +60,6 @@ header
     display: inline;
 }
 
-.content{
-    overflow: scroll;
-    min-height: 100vh;
-    scrollbar-width: none;
-}
 
 /** main{
    background-color: #9DCADB;
@@ -84,13 +83,13 @@ header
     grid-gap: 12px;
     align-items: center;
     text-align: center;
+    padding: 2%;
     
 }
 .portrait{
     max-width: 100%;
     border:  #690038;
     border-style: solid;
-    /**margin: 12px;**/
     
 }
 
@@ -109,19 +108,23 @@ figure{
 
 .interests-skills{
    padding: 8px;
+   display: grid;
 }
 
 
 #interests{
     list-style-type: square;
+    
 }
 
 #skills{
     list-style-type: square;
+    
 }
 
 
 #bio{
+    display: grid;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -176,4 +179,51 @@ td{
 footer{
     text-align: center;
     font-size: 80%;
+}
+
+}
+
+@media(min-width: 750px){
+
+body{
+    font-size: 120%;
+    
+}
+
+#contact{
+    max-width: 60%;
+}
+
+.interests-skills{
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: dense;
+}
+
+#interests{
+    grid-column: 1/2;
+}
+
+#skills{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#bio{
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: dense;
+}
+
+#about-text{
+    grid-column: 1/2;
+}
+
+#cv-table{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+@media (min-width: 1024px) {
+    
+}
+
 }

@@ -4,7 +4,7 @@
 
 @media(min-width: 375px){
 body {
-    font-size: 112,5%;
+    font-size: 112%;
     font-family: 'Raleway', sans-serif;
     color: #033C51;
     background-color: #C7E6F2;
@@ -14,7 +14,6 @@ body {
     grid-template-rows: 48px auto 48px;
     height: 100vh;
 }
-
 
 a {
     color: #033C51;
@@ -157,25 +156,35 @@ td{
     padding: 20px;
 }
 
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-icon{
+    width: 6%;
+    margin-right: 4px;
+    padding-top: 4px;
+}
+
 .social-links{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
-
-/**#github-link{
-    display: inline-block;
-}
-
-#codepen-link{
-    display: inline-block;
-}
-
-#linkedin-link{
-    display: inline-block;
-}**/
 
 .imgicon{
-    max-width: 28%;
+    max-width: 48%;
+   
 }
 
 footer{
